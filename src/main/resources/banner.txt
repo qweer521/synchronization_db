@@ -1,0 +1,13 @@
+
+ _____ _     _      ____    ____  ____  _      _  _
+/  __// \ /\/ \  /|/ ___\  /  _ \/  _ \/ \__/|/ \/ \  /|
+| |  _| | ||| |\ |||    \  | / \|| | \|| |\/||| || |\ ||
+| |_//| \_/|| | \||\___ |  | |-||| |_/|| |  ||| || | \||
+\____\\____/\_/  \|\____/  \_/ \|\____/\_/  \|\_/\_/  \|
+
+mvn install:install-file -Dfile=D:\kettle-core-7.1.0.0-12.jar -DgroupId=pentaho-kettle -DartifactId=kettle-core -Dversion=7.1.0.0-12 -Dpackaging=jar 
+mvn install:install-file -Dfile=D:\kettle-dbdialog-7.1.0.0-12.jar -DgroupId=pentaho-kettle -DartifactId=kettle-dbdialog -Dversion=7.1.0.0-12 -Dpackaging=jar 
+mvn install:install-file -Dfile=D:\kettle-engine-7.1.0.0-12.jar -DgroupId=pentaho-kettle -DartifactId=kettle-engine -Dversion=7.1.0.0-12 -Dpackaging=jar 
+mvn install:install-file -Dfile=D:\metastore-7.1.0.0-12.jar -DgroupId=pentaho -DartifactId=metastore -Dversion=7.1.0.0-12 -Dpackaging=jar 
+mvn install:install-file -Dfile=D:\simple-jndi-1.0.0.jar -DgroupId=pentaho -DartifactId=simple-jndi -Dversion=1.0.0 -Dpackaging=jar 
+
